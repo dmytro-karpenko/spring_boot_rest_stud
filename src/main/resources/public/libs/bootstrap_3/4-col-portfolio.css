@@ -1,0 +1,59 @@
+body {
+    padding-top: 70px;
+    /*background: url("/images/shop_display_hg.jpg") no-repeat center center fixed;*/
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-top: 25px;
+}
+
+.price-item {
+    margin-top: -5px;
+    color: black;
+    margin-left: 10px;
+    font-weight: 900;
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 200%;
+    font-family: "Courier New"
+}
+
+.price-item {
+    margin-top: -5px;
+    color: black;
+    margin-left: 10px;
+    font-weight: 900;
+    font: italic bold 12px/30px Georgia, serif;
+    font-size: 200%;
+    font-family: "Courier New"
+}
+
+.price-item-crossed-white {
+    margin-top: -25px;
+    margin-right: 80px;
+    text-align: right;
+    color: black;
+    position: relative;
+    text-decoration: line-through;
+}
+
+.price-item-white {
+    margin-top: -25px;
+    margin-right: 80px;
+    text-align: right;
+    color: black;
+    position: relative;
+}
+
+.image-crossed {
+    position: absolute;
+    top: -10px;
+    left: 120px;
+}
+
+.mainTheme {
+}

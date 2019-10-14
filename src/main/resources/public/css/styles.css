@@ -1,0 +1,303 @@
+.small-margins {
+    margin: 20px;
+}
+
+.console-tabs {
+    margin: auto;
+    width: 100%;
+    padding: 5px 20px 40px 5px;
+}
+
+.console-tabs-button {
+    width: 50%;
+}
+
+.notActive {
+    color: #3276b1;
+    background-color: #fff;
+}
+
+.outsideWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.insideWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.coveredImage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.coveringCanvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.store-image {
+    height: 450px;
+    width: 750em;
+    margin: 10px 10px 10px 10px;
+    border: double brown;
+}
+
+.dropdown {
+    position: absolute;
+    top: 15%;
+    transform: translateY(-15%);
+}
+
+a {
+    color: #000;
+}
+
+.dropdown dd,
+.dropdown dt {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown ul {
+    margin: -1px 0 0 0;
+}
+
+.dropdown dd {
+    position: relative;
+}
+
+.dropdown a,
+.dropdown a:visited {
+    color: #000;
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;
+}
+
+.dropdown dt a {
+    background-color: #ffffff;
+    display: block;
+    padding: 8px 20px 5px 10px;
+    min-height: 25px;
+    line-height: 24px;
+    overflow: hidden;
+    border: 1px solid black;
+    width: 280px;
+}
+
+.beacons-boarder {
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+
+.dropdown dt a span,
+.multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 0px 0px 0;
+    font-size: 15px;
+}
+
+.dropdown dd ul {
+    background-color: #ffffff;
+    border: 0;
+    color: #000;
+    display: none;
+    left: 0px;
+    padding: 0px 15px 2px 5px;
+    position: absolute;
+    top: 2px;
+    width: 280px;
+    list-style: none;
+    overflow: auto;
+}
+
+.dropdown span.value {
+    display: none;
+}
+
+.dropdown dd ul li a {
+    padding: 5px;
+    display: block;
+}
+
+.dropdown dd ul li a:hover {
+    background-color: #ffffff;
+}
+
+.block-background {
+    background-color: #ffffff;
+}
+
+.container-style {
+    color: #000000;
+}
+
+.title-text {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.title {
+    text-align: left;
+    font-size: 12pt;
+}
+
+.badge-img-left {
+    height: 100%;
+    width: 100px;
+}
+
+.batch-stars {
+    height: 100%;
+    width: 68px;
+    padding-left: 17px;
+}
+
+.single-padding {
+    padding-left: 13px;
+}
+
+.table-title {
+    display: table-caption;
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.table-heading {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.on-center {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    margin-left: 0px;
+}
+
+.group-title {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.badge-table {
+    width: inherit;
+    text-align: left;
+}
+
+.table-cell {
+    display: table-cell;
+    border-width: thin;
+    padding-right: 10px;
+}
+
+.description {
+    margin-top: 0px;
+    text-align: left;
+    font-size: 8pt;
+    padding-right: 5px;
+    width: 80%;
+    display: table-cell;
+    border-width: thin;
+}
+
+.heatmap-background-container {
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.small-padding-top {
+    padding-top: 13px;
+}
+
+.margin-bottom-small {
+    margin-bottom: 20px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.heatmap-container {
+    width: 1100px;
+    height: 700px;
+    left: 115px;
+    top: 47px;
+}
+
+.heatmap-wrapper {
+    width: 1260px;
+    height: 850px;
+    position: absolute;
+}
+
+body, html, h2 {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+body * {
+    font-weight: 200;
+}
+
+.heatmap-legend {
+    width: 280px;
+}
+
+.left-bar-item {
+    background: white;
+    position: relative;
+    margin: 20px 30px 20px 80px;
+    width: 280px;
+}
+
+.left-bar-input {
+    width: 280px;
+}
+
+#min {
+    float: left;
+}
+
+#max {
+    float: right;
+}
+
+h1 {
+    position: absolute;
+    background: white;
+    padding: 10px;
+}
